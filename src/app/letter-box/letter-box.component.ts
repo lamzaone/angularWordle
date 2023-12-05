@@ -8,4 +8,9 @@ import { Component, Input } from '@angular/core';
 export class LetterBoxComponent {
   @Input() letter!: string;
   @Input() status?: number;
+
+  containsUppercase(str:string): boolean {
+    console.log(/[A-Z]/.test(str))
+    return /[A-Z]/.test(str);
+  }
 }

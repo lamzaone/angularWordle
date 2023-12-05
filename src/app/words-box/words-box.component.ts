@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./words-box.component.scss']
 })
 export class WordsBoxComponent {
-  words = ['testing', 'making', 'wordle']
+  words = ['_E___', '_ri__', '_ri_e', 'crime']
 }
+
