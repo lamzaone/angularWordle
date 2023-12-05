@@ -1,1 +1,5 @@
-<p>words-box works!</p>
+<div id="words-box">
+    <app-word *ngFor="let word of words" word={{word}}></app-word>
+    <app-word word="testing"></app-word>
+    <app-word word="WORD"></app-word> 
+</div>
