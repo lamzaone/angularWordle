@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { LetterBoxComponent } from './letter-box/letter-box.component';
 import { WordComponent } from './word/word.component';
 import { WordsBoxComponent } from './words-box/words-box.component';
+import { InputBoxComponent } from './input-box/input-box.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LetterBoxComponent,
     WordComponent,
-    WordsBoxComponent
+    WordsBoxComponent,
+    InputBoxComponent
   ],
   imports: [
     BrowserModule,
